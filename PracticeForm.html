@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Practicing Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+            <div>
+                <label for="fullname">Fullname:</label>
+                <input type="text" name="fullname" id="fullname" required>
+            </div><br>
+            <div>
+                <lebel for="email">Email:</lebel>
+                <input type="email" name="email" id="email">
+            </div><br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+            </div><br>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob">
+                </div><br>
+            <div>
+                <label for="photo">Upload your photo:</label>
+                <input type="file" name="photo" id="photo">
+            </div><br>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="gender" value="male">male
+                <input type="radio" name="gender" id="gender" value="female">female
+                </div><br>
+            <div>
+                <label for="religion">Religion:</label>
+                <input type="radio" name="religion" id="muslim" value="islam" checked>islam
+                <input type="radio" name="religion" id="non-muslim" value="other">other
+                </div><br>
+            <div>
+                <label for="department">Department:</label>
+                <select>
+                    <option value="cse">CSE</option>
+                    <option value="ice">ICE</option>
+                    <option value="eee">EEE</option>
+                </select>
+            </div><br>
+            <div>
+                <lebel for="coment">Coment</lebel><br>
+                <textarea col="5" row="5"></textarea>
+            </div><br>
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="clear form">
+            </div>
+        </form>
+    </body>
+</html>
