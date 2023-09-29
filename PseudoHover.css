@@ -1,0 +1,30 @@
+a:hover
+{
+    color:gray;
+}
+input:hover
+{
+    background-color:rgb(190, 140, 140);
+}
+input
+{
+    padding: 10px;
+}
+input:focus
+{
+    background-color: gray;
+    width: 200px;
+}
+table,tr,td,th
+{
+    border: 1px solid chocolate;
+    text-align: center;
+}
+tr:nth-child(n)
+{
+    background-color: aquamarine;
+}
+input::placeholder
+{
+    color: blue;
+}
