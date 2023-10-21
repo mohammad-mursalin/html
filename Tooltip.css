@@ -1,0 +1,13 @@
+.tooltip-text
+{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    background-color: brown;
+    color: bisque;
+    border-radius: 2px;
+}
+.tooltip:hover .tooltip-text
+{
+    visibility: visible;
+}
