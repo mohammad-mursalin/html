@@ -1,0 +1,46 @@
+.fixed
+{
+    border: gray 3px solid;
+    padding: 3px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+}
+.static
+{
+    border: green 3px solid;
+    padding: 3px;
+    position: static;
+}
+
+.relative
+{
+    border: 3px solid red;
+    padding: 3px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.div1
+{
+    border: green 3px solid;
+    padding: 3px;
+    height: 200px;
+    position: relative;
+}
+
+.absulate
+{
+    border: black 3px solid;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    top: 150px;
+}
+
