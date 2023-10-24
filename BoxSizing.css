@@ -1,0 +1,16 @@
+.div1
+{
+    background-color: brown;
+    width: 50%;
+    box-sizing: border-box;
+    border: 5px black solid;
+    float: left;
+}
+.div2
+{
+    background-color: olivedrab;
+    width: 50%;
+    box-sizing: border-box;
+    border: 5px black solid;
+    float: left;
+}
