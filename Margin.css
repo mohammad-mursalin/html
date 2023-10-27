@@ -1,0 +1,13 @@
+#section1
+{
+    background-color: chocolate;
+    width: 180px;
+    margin: 50px;
+}
+
+#section2
+{
+    background-color: brown;
+    width: 150px;
+    margin: 50px 60px 70px 50px;
+}
