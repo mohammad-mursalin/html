@@ -1,0 +1,29 @@
+.root
+{
+    --primary-color: green;
+    --secondary-color: red;
+}
+
+.div-1
+{
+    height: 250px;
+    width: 180px;
+    background: var(--primary-color,brown) ;
+    
+}
+
+.div-2
+{
+    height: 200px;
+    width: 150px;
+    background: var(--secondary-color ,rgb(90, 87, 87)) ;
+    
+}
+
+.div-3
+{
+    height: 150px;
+    width: 120px;
+    background: var(--primary-clor ,brown) ;
+    
+}
