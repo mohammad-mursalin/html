@@ -1,0 +1,53 @@
+.flex-box
+{
+    background-color: blue;
+    display: flex;
+    height: 200px;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box > div
+{
+    width: 100px;
+    background-color: brown;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.div1
+{
+   order: 2 ; 
+}
+.div2
+{
+   order: 1; 
+}
+.div3
+{
+   order: 3; 
+}
+.div4
+{
+   order: 5; 
+}
+.div5
+{
+   order: 7; 
+}
+.div6
+{
+   order:8 ; 
+}
+.div7
+{
+   order: 4; 
+}
+.div8
+{
+   order:6; 
+}
