@@ -27,7 +27,7 @@
     left: 20px;
 }
 
-.div1
+.div1    /* absulate will go on top of reletive */
 {
     border: green 3px solid;
     padding: 3px;
